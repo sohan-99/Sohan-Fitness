@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sohan Fitness</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Trirong"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    * {
+      font-family: "Trirong", serif;
+    }
+    /* CSS Reset */
+    body {
+      font-family: "Trirong", serif;
+      margin: 0px;
+      padding: 0px;
+      background-image: url("gym.jpg");
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+    .left {
+      position: absolute;
+      left: 45px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid red; */
+      /* border-radius: 10px; */
+      /* text-align: center; */
+      /* font-size: 14px; */
+    }
+    .left div {
+      line-height: 19px;
+      /* font-size: 20px; */
+      text-align: center;
+    }
+    .left img {
+      width: 136px;
+      /* invert function  */
+      /* filter: invert(100%); */
+    }
+    .right {
+      position: absolute;
+      right: 10px;
+      top: 35px;
+      display: inline-block;
+      /* border: 2px solid yellow;border-radius: 4px; */
+    }
+    .mid {
+      display: block;
+      width: 55%;
+      margin: 33px auto;
+      /* border: 2px solid green; */
+      border-radius: 25px;
+    }
+    .navber {
+      display: inline-block;
+    }
+    .navber li {
+      display: inline-block;
+      font-size: 24px;
+    }
+    .navber li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navber li a:hover,
+    .navber li a.active {
+      /* text-decoration: underline; */
+      color: aqua;
+    }
+    .btn {
+      font-family: "Trirong", serif;
+      margin: 0px 9px;
+      color: white;
+      background-color: rgb(9, 129, 69);
+      padding: 4px 14px;
+      border: 2px solid rgb(199, 156, 156);
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(5, 53, 53);
+    }
+    .conteiner {
+      border: 2px solid rgb(65, 65, 121);
+      margin: 100px 45px;
+      padding: 50px;
+      width: 33%;
+      border-radius: 28px;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 225px;
+      padding: 6px;
+      border: 2px solid rgb(84, 174, 226);
+      margin: 10px auto;
+      border-radius: 25px;
+      font-size: 20px;
+    }
+    .conteiner h1 {
+      text-align: center;
+    }
+    .conteiner button {
+      display: block;
+      width: 53.4%;
+      margin: auto;
+      border-radius: 25px;
+    }
+    p {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="logo.jpg" alt="" srcset="" />
+        <div>Sohan Fitness</div>
+      </div>
+
+      <div class="mid">
+        <ul class="navber">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculetor</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- right for button -->
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Hot Line</button>
+      </div>
+    </header>
+    <div class="conteiner">
+      <h1>Join the best gym of Bogura now</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder=" Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder=" Gender" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Height" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder=" Email Id" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder=" Phone Number" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <div>
+        <p>OUR STORY</p>
+      <p>
+        <!-- <h4>OUR STORY </h4> -->
+        Gym and Fitness was founded in 2002 as a family owned and
+        operated business specialising in supplying high-quality gym equipment
+        at great prices.
+      </p>
+    </div>
+
+    <p>Copyright © 2023 SohanFitness.com</p>
+
+    <!-- <div class="conteiner">
+        <h1>OUR STORY</h1>
+        <!-- <form action="noaction.php">  -->
+    <!-- <p>
+                Gym and Fitness was founded in 2002 as a family owned and operated business specialising in supplying high-quality gym equipment at great prices.
+            </p> -->
+  </body>
+</html>
